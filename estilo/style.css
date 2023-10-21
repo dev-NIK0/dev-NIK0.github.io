@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Young+Serif&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+@media(min-width: 50px) and (max-width: 768px){
+    nav{ 
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        margin:0px;
+    }
+    .logoHeader{
+        height: 150px;
+
+    }
+    .ulNav{
+        flex-wrap: wrap;
+    }
+    .p-main{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .razasSection{
+        flex-wrap: wrap;
+    }
+    .referFooter{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+nav{
+    font-size: large;
+    background-color: coral;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 10px solid rgba(131, 222, 255, 0.878);
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    background-color: coral;
+    
+}
+a:hover{
+    background-color: aliceblue;
+    color: coral;
+    text-decoration: underline;
+}
+.logoHeader{
+    border: solid 15px coral;
+    border-radius: 100px;
+    width: 150px;
+    position: relative;
+}
+
+.ulNav{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    background-color: coral;
+}
+.listUlNav{
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: coral;
+
+}
+
+.tituloMain{
+    text-align: center;
+    margin: 20px;
+    color: rgb(21, 95, 255);
+    font-family:'Roboto', sans-serif;
+}
+#Razas{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tituloRazasSection{
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: x-large;
+    font-family:'Young Serif', serif;
+}
+
+.razasSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.razasSection-h3{
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    font-family:'Young Serif', serif;
+    font-size: larger;
+    text-decoration:underline;
+}
+
+.p-main{
+    margin: 50px;
+    font-size: larger;
+    font-family:'Young Serif', serif;
+}
+.razasSectionImages{
+    width: 200px;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px 4px rgb(221, 219, 219)
+}
+.razasSectionDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionArtLi{
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+
+.image-footer{
+
+    width: 100px;
+    border-radius: 25px;
+    background-color: aquamarine;
+}
+.referFooter{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.p-footer{
+    font-family:'Roboto', sans-serif;
+    font-size: large;
+
+}
