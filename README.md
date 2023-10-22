@@ -1,1 +1,1 @@
-Pagina hecha para comprobar los conocimientos adquiridos en el curso de Desarrollador Front-End en el programa Buenos Aires (BA) 2.0.
+Pagina con tematica de las razas de perros con sus caracteristicas y al final de la pagina informacion para contactar. Esta misma fue hecha para comprobar los conocimientos adquiridos en el curso de Desarrollador Front-End en el programa Buenos Aires (BA) 2.0.
