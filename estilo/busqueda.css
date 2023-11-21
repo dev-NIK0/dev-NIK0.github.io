@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+nav{
+    margin: 20px 0 0 20px;
+}
+button{
+    text-decoration: none;
+    border: 10px solid rgb(239, 98, 244);
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(173, 87, 254);
+}
+button a {
+    background-color: white;
+    text-decoration: none;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    color:blueviolet
+}
+.divBusqueda{
+    margin: 100px;
+    text-align: center;
+}
+.divBusqueda input{
+    border: 10px solid violet;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.divBusqueda button{
+    padding: 5px;
+    border: 5px solid violet;
+    border-radius: 10px;
+}
+.divBusqueda button:hover{
+    color: blueviolet;
+    background-color: aliceblue;
+    text-decoration: underline;
+    border: 8px solid slateblue;
+}
+#razas{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.razasSection-h3{
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.razasSectionImages{
+    height: 20rem;
+    width: 20rem;
+    border: solid rgb(187, 125, 245) 5px;
+    margin-bottom: 50px;
+}
+.razasSection{
+    margin-bottom: 100px;
+}

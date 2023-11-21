@@ -3,40 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perros Mundito</title>
-    <link rel="stylesheet" href="./estilo/style.css"> <!-- ETIQUETA PARA ENLAZAR CON LOS ESTILOS -->
+    <title>Busca la raza ideal</title>
+    <link rel="stylesheet" href="./estilo/busqueda.css">
 </head>
 <body>
-    <nav id="Home">
-        <!-- IMAGEN DEL LOGO DE LA PAGINA-->
-        <img src="./imagenes/iconos/imagen.perrito.jpg" alt="logo.perrito" class="logoHeader">
-        <!-- LISTA DE NAVEGACION -->
-        <ul class="ulNav">
-            <li class="listUlNav"><a href="#Home">Home</a></li>
-            <li class="listUlNav"><a href="#Razas">Razas</a></li>
-            <li class="listUlNav"><a href="#Contacto">Contacto</a></li>
-            <li class="listUlNav"><a href="./busqueda.html">Buscar Raza</a></li>
-        </ul> 
+    <nav>
+        <button>
+            <a href="./index.html">Home</a>
+        </button>
     </nav>
     <main>
-        <!-- TITULO PRINCIPAL DE LA PAGINA -->
-        <h1 class="tituloMain">Perros Mundito</h1>
-        <!-- PARRAFO DE DESCRIPCION DE LA PAGINA -->
-        <p class="p-main"> En esta pagina vas a encontrar los distintos tipos de raza de perro que existen en el mundo actual
-                podras tambien encontrar descripcion acerca de cada una de ellas para poder informarte sobre gustos y
-                    color de la raza , fortalezas y debilidades de la raza , periodo de edad alcanzada , tipo de pelo del animal.
-                Tambien el clima en que pueden vivir estas razas y tratamientos que se deben tener en cuenta para que el animal pueda tener
-                una vida adecuada para alcanzar su maximo periodo de vida.
-        </p>
+        <h1>Busca tu Raza favorita !!!</h1>
+        <div class="divBusqueda">
+            <input type="text" id="busquedaRaza" placeholder="Ingrese su Raza favorita" /><br/>
+            <button onclick="borrar()">Buscar</button>   
+        </div>
         
-    </main>
-    <!-- SECCION DE LAS RAZAS -->
-    <section id="Razas">
-        <!-- TITULO SECUNDARIO -->
-        <h2 class="tituloRazasSection">Razas</h2>
-            <!-- SECCION DESCRIBIENDO TIPOS DE RAZAS DE PERRO -->
-            <div class="razasSection">
-                <article class="razasSectionDiv">
+            <div id="razas">
+                <article id="dogoArgentino">
                     <!-- TITULO DEL NOMBRE DE LA RAZA -->
                     <h3 class="razasSection-h3">Dogo Argentino</h3>
                     <!-- IMAGEN REPRESENTATIVA DE LA RAZA DEL PERRO -->
@@ -50,7 +34,7 @@
                     <li class="sectionArtLi"><span style="font-weight: bold;">Salud:</span> Muy saludable.</li>
                     <li class="sectionArtLi"><span style="font-weight: bold;">Esperanza de vida:</span> Entre 10 y 15 años.</li>
                 </article>
-                <article class="razasSectionDiv">
+                <article id="pastorAleman">
                     <!-- TITULO DEL NOMBRE DE LA RAZA -->
                     <h3 class="razasSection-h3">Pastor Aleman</h3>
                     <!-- IMAGEN REPRESENTATIVA DE LA RAZA DEL PERRO -->
@@ -64,7 +48,7 @@
                     <li class="sectionArtLi"><span style="font-weight: bold;">Energia:</span> Media.</li>
                     <li class="sectionArtLi"><span style="font-weight: bold;">Fuertes</span> Agilidad , Pastoreo , Obediencia y Rally.</li>
                 </article>
-                <article class="razasSectionDiv">
+                <article id="borderCollie">
                     <!-- TITULO DEL NOMBRE DE LA RAZA -->
                     <h3 class="razasSection-h3">Border collie</h3>
                     <!-- IMAGEN REPRESENTATIVA DE LA RAZA DEL PERRO -->
@@ -76,7 +60,7 @@
                     <li class="sectionArtLi"><span style="font-weight: bold;">Esperanza de Vida: </span>10 - 14 años</li>
                     <li class="sectionArtLi"><span style="font-weight: bold;">Pelo: </span>Negro con blanco</li>
                 </article>
-                <article class="razasSectionDiv">
+                <article id="cuvacEslovaco">
                     <!-- TITULO DEL NOMBRE DE LA RAZA -->
                     <h3 class="razasSection-h3">Cuvac eslovaco</h3>
                     <!-- IMAGEN REPRESENTATIVA DE LA RAZA DEL PERRO -->
@@ -91,29 +75,10 @@
                     <li class="sectionArtLi"><span style="font-weight: bold;">Utilidad:</span> Muy versátil.</li>
                 </article>
             </div>
-    </section>
-    
-    <!-- INFORMACION DE LA PAGINA -->
-    <footer id="Contacto">
-            <!-- LINEA DE SEPARACION-->
-        <hr style="color: black;"/>
-           <div class="referFooter">
-                <div>
-                    <!-- LOGO DE INSTAGRAM-->
-                  <img src="./imagenes/iconos/icon instagram.jpg" alt="icon-instagram" class="image-footer">
-                  <p class="p-footer" >@PerrosMundito</p>  
-                </div>
-                <div>
-                       <!-- LOGO DE FACEBOOK -->
-                   <img src="./imagenes/iconos/icon facebook.webp" alt="icon-facebook" class="image-footer">
-                    <p class="p-footer">Perros Mundito</p> 
-                </div>
-                <div>
-                    <!-- LOGO DE WHATSAPP-->
-                    <img src="./imagenes/iconos/icon whatssapp.jpg" alt="icon-whatsapp" class="image-footer">
-                    <p class="p-footer">+549116542318</p>  
-                </div>
-            </div> 
-    </footer>
+        <section id="razaEncontrada">
+
+        </section>
+    </main>
+    <script src="/js/buscarRaza.js"></script>
 </body>
 </html>
